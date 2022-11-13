@@ -1,0 +1,70 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.home__layout {
+  width: 960px;
+  height: 540px;
+  margin: 0 auto;
+  background: url(https://js-ind-app.herokuapp.com/images/app-bkg-01.png) no-repeat #f5f5f5;
+  background-position: center center;
+  border: 1px solid #e0e0e0;
+  display: flex;
+}
+
+.home__layout__left {
+  flex: 0.5;
+}
+
+.home__layout__right {
+  flex: 0.5;
+  padding: 100px;
+  margin-left: 270px;
+}
+
+.home__layout__right h1 {
+  font-size: 2.7rem;
+  line-height: 1;
+}
+
+.home__layout__right h1,
+.home__layout__right p {
+  color: var(--blue-color);
+}
+
+.home__layout__right p {
+  margin: 30px 0 40px 0;
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 1.31rem;
+}
+
+.home__layout__btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: var(--blue-color);
+  color: var(--white-color-default);
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  padding: 15px 33px;
+  letter-spacing: 1px;
+}
+
+.home__layout__btn:hover {
+  color: var(--light-blue-color);
+}
+
+.home__layout__btn .MuiSvgIcon-root {
+  margin-left: 9px;
+  transition: transform 0.2s ease-in;
+}
+
+.home__layout__btn:hover .MuiSvgIcon-root {
+  color: var(--white-color-default);
+  transform: translateX(8px);
+}

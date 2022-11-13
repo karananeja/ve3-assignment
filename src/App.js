@@ -1,8 +1,12 @@
 import React from 'react';
+import './App.css';
+import Home from './pages/Home.js';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='app'>
+      <Home />
+    </div>
   );
 };
 
