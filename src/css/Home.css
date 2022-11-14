@@ -42,6 +42,38 @@
   line-height: 1.31rem;
 }
 
+.home__layout__right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home__layout__right ul:nth-child(5) .home__layout__list {
+  margin-bottom: 43px;
+  border: none;
+}
+
+.home__layout__list {
+  font-size: 1.3rem;
+  color: var(--blue-color);
+  padding: 10px;
+  border-bottom: 1px solid var(--gray-color-shade-1);
+  transition: all 0.2s ease-in;
+}
+
+.home__layout__list:hover {
+  transform: translateX(20px);
+  background-color: var(--gray-color-shade-1);
+}
+
+.home__layout__list:active {
+  transform: translateX(20px);
+  background-color: var(--gray-color-shade-1);
+}
+
+.home__layout__radio {
+  display: none;
+}
+
 .home__layout__btn {
   cursor: pointer;
   display: flex;
