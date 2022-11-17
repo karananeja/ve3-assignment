@@ -1,9 +1,12 @@
 :root {
   --white-color-default: rgb(255, 255, 255);
   --white-color-shade-1: rgb(245, 245, 245);
-  --blue-color: #0d4f8c;
-  --light-blue-color: #aae0f6;
+  --blue-color-shade-1: #0d4f8c;
+  --blue-color-shade-2: rgb(32, 93, 149);
+  --blue-color-shade-3: #aae0f6;
+  --blue-color-shade-4: #2b7bd0;
   --gray-color-shade-1: #e0e0e0;
   --gray-color-shade-2: #545454;
   --gray-color-shade-3: #808080;
+  --gray-color-shade-4: #f5f5f5;
 }
