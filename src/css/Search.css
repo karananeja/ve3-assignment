@@ -1,0 +1,77 @@
+.search {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: var(--white-color-default);
+  background-color: var(--blue-color-shade-2);
+}
+
+.search__layout {
+  width: 960px;
+  height: 540px;
+  margin: 0 auto;
+  background: url(https://js-ind-app.herokuapp.com/images/app-bkg-02.png) no-repeat var(--blue-color-shade-2);
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 20px 100px;
+}
+
+.search__heading {
+  font-weight: normal;
+  font-size: 0.9rem;
+  padding-left: 25px;
+}
+
+.search__icons .MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.search__body {
+  width: 75%;
+  padding: 0 125px;
+}
+
+.search__input {
+  width: 91%;
+  background-color: transparent;
+  border: none;
+  outline-color: var(--blue-color-shade-1);
+  font-size: 1.1rem;
+  border-bottom: 1px solid var(--blue-color-shade-3);
+  height: 2rem;
+}
+
+.search__input::placeholder {
+  color: var(--blue-color-shade-4);
+  opacity: 0.5;
+}
+
+.search__body p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width:425px) {
+  .search__layout {
+    background-position: top left !important;
+    background-size: contain;
+  }
+
+  .search__header {
+    padding: 20px 30px;
+  }
+
+  .search__body {
+    padding: 0 52px;
+  }
+}
