@@ -46,6 +46,7 @@
   width: 91%;
   background-color: transparent;
   border: none;
+  color: var(--white-color-default);
   outline-color: var(--blue-color-shade-1);
   font-size: 1.1rem;
   border-bottom: 1px solid var(--blue-color-shade-3);
