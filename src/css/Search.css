@@ -33,13 +33,23 @@
 
 .search__icons .MuiSvgIcon-root {
   font-size: 2.5rem !important;
-  margin: 0 15px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
 .search__body {
   width: 75%;
   padding: 0 125px;
+}
+
+.search__input__container {
+  display: flex;
+  align-items: center;
+}
+
+.search__input__container .MuiSvgIcon-root {
+  cursor: pointer;
+  margin-top: 5px;
 }
 
 .search__input {
@@ -74,5 +84,9 @@
 
   .search__body {
     padding: 0 52px;
+  }
+
+  .search__input {
+    width: 80%;
   }
 }
