@@ -1,8 +1,29 @@
-import { MoreVert } from '@mui/icons-material';
-import React from 'react';
+import { MoreVert, Search as SearchIcon } from '@mui/icons-material';
+import React, { useState } from 'react';
 import '../css/Search.css';
+import moduleContent from '../moduleContent.json';
 
 const Search = () => {
+  const [search, setSearch] = useState('');
+  const [headings, setHeadings] = useState([]);
+  const [paragraphs, setParagraphs] = useState([]);
+
+  const moduleNames = ['Module One', 'Module Two', 'Module Three', 'Module Four', 'Module Five'];
+
+  const handleSearch = () => {
+    moduleContent.map(module => (
+      moduleNames.map(name => {
+        module[name].tabsInfo.tabHeadings.map(headingList => {
+          if (headingList.toLowerCase().includes(search) && search.length !== 0) setHeadings(arr => [...arr, headingList]);
+        });
+
+        module[name].tabsInfo.tabParaGraphs.map(paragraphList => {
+          if (paragraphList.toLowerCase().includes(search) && search.length !== 0) setParagraphs(arr => [...arr, paragraphList]);
+        });
+      })
+    ));
+  };
+
   const handleClick = (e) => {
     e.preventDefault();
     window.location = '/';
@@ -18,8 +39,11 @@ const Search = () => {
           </div>
         </div>
         <div className='search__body'>
-          <input className='search__input' type="text" placeholder='type text and press enter...' />
-          <p>Showing 0 results...</p>
+          <div className='search__input__container'>
+            <input className='search__input' type="text" placeholder='type text and press enter...' value={search} onChange={(e) => setSearch(e.target.value)} />
+            <SearchIcon onClick={handleSearch} />
+          </div>
+          <p>Showing {headings.length > 0 ? `${headings.length}` : '0'} results...</p>
         </div>
       </div>
     </div>
