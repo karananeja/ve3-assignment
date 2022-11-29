@@ -24,6 +24,8 @@ const Search = () => {
     ));
   };
 
+  console.log(headings, paragraphs);
+
   const handleClick = (e) => {
     e.preventDefault();
     window.location = '/';
@@ -43,7 +45,7 @@ const Search = () => {
             <input className='search__input' type="text" placeholder='type text and press enter...' value={search} onChange={(e) => setSearch(e.target.value)} />
             <SearchIcon onClick={handleSearch} />
           </div>
-          <p>Showing {headings.length > 0 ? `${headings.length}` : '0'} results...</p>
+          <p>Showing {headings.length > 0 && paragraphs.length > 0 ? paragraphs.length > headings.length ? `${paragraphs.length}` : `${headings.length}` : '0'} results...</p>
         </div>
       </div>
     </div>
