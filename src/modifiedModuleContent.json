@@ -1,0 +1,114 @@
+[
+  {
+    "Module One": {
+      "tabsInfo": {
+        "tab0": {
+          "name": "Tab 1",
+          "heading": "Lorem Ipsum is simply dummy testingOne",
+          "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unkwn printer Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkown printer. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkown printer.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-01.jpg"
+        },
+        "tab1": {
+          "name": "Tab 2",
+          "heading": "Amet pariatur consequat louptateff in ex consequat",
+          "paragraph": "Dolore qui aliqua ex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-02.jpg"
+        },
+        "tab2": {
+          "name": "Tab 3",
+          "heading": "Eiusmod ullamco ea officiaipsum.",
+          "paragraph": "Eex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-03.jpg"
+        }
+      }
+    },
+    "Module Two": {
+      "tabsInfo": {
+        "tab0": {
+          "name": "Tab 1",
+          "heading": "Tempor laboris irure quiproident voluptate fugiat.",
+          "paragraph": "Voluptate culpa sint amet amet ullamco culpa adipisicing consectetur dolore sunt culpa sunt nostrud aliquip. Irure dolor eu deserunt voluptate adipisicing exercitation excepteur excepteur occaecat quis laborum veniam veniam. Laboris ad fugiat exercitation cupidatat laboris nostrud nulla Lorem amet incididunt. Do veniam mollit voluptate id non nulla sunt proident voluptate aute ipsum nostrud ipsum ex.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-04.jpg"
+        },
+        "tab1": {
+          "name": "Tab 2",
+          "heading": "Mollit culpa labore ut proident ea duis laborum.",
+          "paragraph": "Dolore qui aliqua ex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-05.jpg"
+        },
+        "tab2": {
+          "name": "Tab 3",
+          "heading": "Cupidatat quis amet aliquip amet",
+          "paragraph": "Eex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-06.jpg"
+        }
+      }
+    },
+    "Module Three": {
+      "tabsInfo": {
+        "tab0": {
+          "name": "Tab 1",
+          "heading": "Deserunt deserunt fugiat laborum est",
+          "paragraph": "Voluptate culpa sint amet amet ullamco culpa adipisicing consectetur dolore sunt culpa sunt nostrud aliquip. Irure dolor eu deserunt voluptate adipisicing exercitation excepteur excepteur occaecat quis laborum veniam veniam. Laboris ad fugiat exercitation cupidatat laboris nostrud nulla Lorem amet incididunt. Do veniam mollit voluptate id non nulla sunt proident voluptate aute ipsum nostrud ipsum ex.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-07.jpg"
+        },
+        "tab1": {
+          "name": "Tab 2",
+          "heading": "Tempor quis ipsum occaecat cillum magna anim id minim dolor.",
+          "paragraph": "Dolore qui aliqua ex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-08.jpg"
+        },
+        "tab2": {
+          "name": "Tab 3",
+          "heading": "Deserunt anim deserunt dolore adipisicing id laborum.",
+          "paragraph": "Eex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-09.jpg"
+        }
+      }
+    },
+    "Module Four": {
+      "tabsInfo": {
+        "tab0": {
+          "name": "Tab 1",
+          "heading": "Nulla nisi officia non elit ut dolore.",
+          "paragraph": "Voluptate culpa sint amet amet ullamco culpa adipisicing consectetur dolore sunt culpa sunt nostrud aliquip. Irure dolor eu deserunt voluptate adipisicing exercitation excepteur excepteur occaecat quis laborum veniam veniam. Laboris ad fugiat exercitation cupidatat laboris nostrud nulla Lorem amet incididunt. Do veniam mollit voluptate id non nulla sunt proident voluptate aute ipsum nostrud ipsum ex.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-10.jpg"
+        },
+        "tab1": {
+          "name": "Tab 2",
+          "heading": "Eu ex excepteur commodo Lorem officia id.",
+          "paragraph": "Dolore qui aliqua ex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-11.jpg"
+        },
+        "tab2": {
+          "name": "Tab 3",
+          "heading": "Veniam officia tempor consectetur qui ad nulla.",
+          "paragraph": "Eex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-12.jpg"
+        }
+      }
+    },
+    "Module Five": {
+      "tabsInfo": {
+        "tab0": {
+          "name": "Tab 1",
+          "heading": "Sunt ea occaecat mollit incididunt enim nisi.",
+          "paragraph": "Voluptate culpa sint amet amet ullamco culpa adipisicing consectetur dolore sunt culpa sunt nostrud aliquip. Irure dolor eu deserunt voluptate adipisicing exercitation excepteur excepteur occaecat quis laborum veniam veniam. Laboris ad fugiat exercitation cupidatat laboris nostrud nulla Lorem amet incididunt. Do veniam mollit voluptate id non nulla sunt proident voluptate aute ipsum nostrud ipsum ex.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-13.jpg"
+        },
+        "tab1": {
+          "name": "Tab 2",
+          "heading": "Occaecat aliqua ex est dolore aliqua.",
+          "paragraph": "Dolore qui aliqua ex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-14.jpg"
+        },
+        "tab2": {
+          "name": "Tab 3",
+          "heading": "Officia tempor ullamco veniam adipisicing.",
+          "paragraph": "Eex qui est quis anim culpa. Commodo eu cupidatat aute ad. Consequat velit magna qui proident eiusmod exercitation sunt elit nostrud amet tempor excepteur. Minim ex Lorem incididunt occaecat ea ad nostrud non. Occaecat non id esse pariatur anim fugiat. Reprehenderit est amet aute qui occaecat nostrud ea quis ad aute aute esse.",
+          "image": "https://js-ind-app.herokuapp.com/images/img-15.jpg"
+        }
+      }
+    }
+  }
+]
